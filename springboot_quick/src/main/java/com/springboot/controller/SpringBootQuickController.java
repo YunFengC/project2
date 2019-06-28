@@ -9,7 +9,7 @@ public class SpringBootQuickController {
     @RequestMapping("/quick")
     @ResponseBody
     public String quick(){
-        int i= 101;
+        int i= 102;
         return "Hello,Springboot";
     }
 
