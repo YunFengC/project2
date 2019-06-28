@@ -10,6 +10,7 @@ public class SpringBootQuickController {
     @ResponseBody
     public String quick(){
         int i= 104;
+        System.out.println("HelloWorld");
         return "Hello,Springboot";
     }
 
