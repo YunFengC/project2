@@ -17,6 +17,7 @@ public class findAllController {
 
     @RequestMapping("/findAll")
     public @ResponseBody List<User> findAll(){
+        System.out.println("HelloSpringBoot");
         return findAllDao.getAll();
     }
 }
